@@ -835,13 +835,6 @@ input[type=checkbox] {
     .contact_text h1 {
         font-size: 40px;
     }
-    .contact_list .info {
-        /* margin: 0.1rem; */
-        width: 91%; 
-    }
-    .contact_form form input, form textarea {
-        width: 91%;
-    }
 }
   
 @keyframes showText {
