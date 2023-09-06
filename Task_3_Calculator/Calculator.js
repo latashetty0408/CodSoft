@@ -11,11 +11,12 @@ Array.from(Action_buttons).forEach((buttons)=>{
         }
         else if(e.target.innerHTML == '←'){
             output = output.toString().slice(0, -1);
-            Input_Display.value=output;
+            Input_Display.value = output;
         }
         else{
-            console.log(e.target);
+            // console.log(e.target);
             output += e.target.innerHTML;
+            console.log(output)
             Input_Display.value = output;
         }
     })
